@@ -1,0 +1,65 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega128A"</DEVICE>
+ <WORKING_DIR>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m128Adef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\Debug\tempr_humid_asm.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>tempr_humid_asm.hex</FILE>
+  <FILE>tempr_humid_asm.eep</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>tempr_humid_asm.map</FILE>
+  <FILE>tempr_humid_asm.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <LCD_INIT_DATA><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>75</LINE></LCD_INIT_DATA>
+  <SENSOR_DATA><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>80</LINE></SENSOR_DATA>
+  <SENSOR_COMMAND><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>83</LINE></SENSOR_COMMAND>
+  <SENSOR_DIGITS><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>86</LINE></SENSOR_DIGITS>
+  <main><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>98</LINE></main>
+  <Timer_Counter1_COMPA_ISR><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>273</LINE></Timer_Counter1_COMPA_ISR>
+  <TWI_ISR><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>284</LINE></TWI_ISR>
+  <send_command_LCD><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>256</LINE></send_command_LCD>
+  <read_eeprom_1><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>130</LINE></read_eeprom_1>
+  <send_data_LCD><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>236</LINE></send_data_LCD>
+  <read_eeprom_2><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>153</LINE></read_eeprom_2>
+  <main_loop><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>219</LINE></main_loop>
+  <NEXT_START><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>226</LINE></NEXT_START>
+  <continue_sensor_reading><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>508</LINE></continue_sensor_reading>
+  <put_data_on_LCD><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>444</LINE></put_data_on_LCD>
+  <Timer2_delay><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>419</LINE></Timer2_delay>
+  <NEXT1><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>294</LINE></NEXT1>
+  <START_HANDLER><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>338</LINE></START_HANDLER>
+  <NEXT2><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>300</LINE></NEXT2>
+  <SLA_W_A_HANDLER><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>345</LINE></SLA_W_A_HANDLER>
+  <NEXT3><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>306</LINE></NEXT3>
+  <SLA_W_N_HANDLER><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>360</LINE></SLA_W_N_HANDLER>
+  <NEXT4><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>312</LINE></NEXT4>
+  <BYTE_TR_A_HANDLER><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>369</LINE></BYTE_TR_A_HANDLER>
+  <NEXT5><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>318</LINE></NEXT5>
+  <SLA_R_A_HANDLER><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>387</LINE></SLA_R_A_HANDLER>
+  <NEXT6><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>324</LINE></NEXT6>
+  <BYTE_R_A_HANDLER><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>402</LINE></BYTE_R_A_HANDLER>
+  <TWI_end><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>336</LINE></TWI_end>
+  <NEXT_TR><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>382</LINE></NEXT_TR>
+  <READ_NEXT><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>415</LINE></READ_NEXT>
+  <delay_loop2><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>429</LINE></delay_loop2>
+  <hex_to_ascii_convertion><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>520</LINE></hex_to_ascii_convertion>
+  <start_check><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>527</LINE></start_check>
+  <next_condition><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>532</LINE></next_condition>
+  <start_divide><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>536</LINE></start_divide>
+  <change_divident><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>542</LINE></change_divident>
+  <last_digit><FILE>D:\avr_projects\tempr_humid_asm\tempr_humid_asm\main.asm</FILE><LINE>554</LINE></last_digit>
+ </LABELS>
+</ASSEMBLER_INFO>
